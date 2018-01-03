@@ -1,6 +1,6 @@
 # Description
 -------
-This project contains algorithm implementations through various programming languages and models. Functional, Object oriented, and imperative style model will be updated.
+This project contains algorithm implementations, compiler optimization through various programming languages and models. Functional, Object oriented, and imperative style will be updated.
 
 # Links
 -------
