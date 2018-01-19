@@ -1,6 +1,8 @@
 
 # Important characteristics
 - concurrency
+    - goroutines(concurrent function execution), channel(communication mechanism between goroutines)
+    - main function also runs in a goroutine
 - data Abstraction
 - OOP
 - automatic memory management (Garbage collection)
@@ -26,9 +28,8 @@
 untyped scripting language `<` sa
 
 
-
-
-
+- struct
+    - struct is group of values called fields, often different types
 
 ----
 # Go tool
