@@ -12,9 +12,11 @@
 - first class function
 - system call interface
 - immutable strings which defaults UTF-8
-- type system (concrete type, abstract types - interface)
+- type system (concrete type - Named struct, abstract types - interface)
+    - method : function that associated with a named type
+    - interface in Go is not represneted or implementation, rather it makes us to treat different concrete types in the same way based on what methods they have
 
-- ko implicit numeric conversions
+- no implicit numeric conversions
 - no constructors / destructors
 - no operator overloading
 - no default parameter values
@@ -24,6 +26,8 @@
 - no macros
 - no function annotations
 - no thread local storage
+- no pointer arithmetic
+    - though it is visible by `&` and access to value by `*`
 
 untyped scripting language `<` sa
 
@@ -36,7 +40,9 @@ untyped scripting language `<` sa
 - download source files under $GOPATH directory
 > go get gopl.io/ch1/helloworld
 - Go documentation
-> godoc
+> go doc [function-name]
+> godoc (local server)
+> GoDoc (online, hosted on Bitbucket, GitHub, etc[)
 - Compile, Link, Execute the resulting file
 > go run xxx.go
 - Compile, Link
