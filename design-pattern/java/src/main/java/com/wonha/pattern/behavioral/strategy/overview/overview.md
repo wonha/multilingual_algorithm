@@ -1,4 +1,4 @@
-# Overview
+# Strategy Pattern Overview
 
 # Power
 
